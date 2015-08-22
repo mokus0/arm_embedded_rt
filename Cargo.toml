@@ -1,0 +1,8 @@
+[package]
+name = "arm_embedded_rt"
+version = "0.1.0"
+authors = ["James Cook <mokus@deepbondi.net>"]
+build = "build.rs"
+
+[dependencies.core]
+git = "https://github.com/hackndev/rust-libcore.git"
