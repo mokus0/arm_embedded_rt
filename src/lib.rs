@@ -18,3 +18,5 @@ extern fn stack_exhausted() {}
 
 #[lang="eh_personality"] #[linkage = "available_externally"]
 extern fn rust_eh_personality() {}
+
+pub mod vectors;

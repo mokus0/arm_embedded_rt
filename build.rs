@@ -36,7 +36,7 @@ fn compile_c_file(in_path: &Path, out_dir: &str) -> String {
         .arg(in_path.as_os_str())
         .arg("-Isrc")
         .arg("-c").arg("-Os")
-        .arg("-mthumb").arg("-mcpu=cortex-m0")
+        .arg("-mthumb").arg("-mcpu=cortex-m4")
         .arg("-ffunction-sections")
         .arg("-o").arg(&out_file)
         .expect_success();
