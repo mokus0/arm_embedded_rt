@@ -17,7 +17,7 @@
         bl          init_sram
         movs        r0, #0
         movs        r1, #0
-        bl          main
+        bl          start
         b           abort
     .size reset_handler, . - reset_handler
     .endfunc
